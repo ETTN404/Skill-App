@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/green_blue"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:layout_marginStart="12dp"
+                    android:textColor="@color/grey_green"
+                    android:gravity="bottom"
+                    android:textSize="16sp"
+                    android:text="Hi,Eyob" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:textStyle="bold"
+                    android:layout_marginStart="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:layout_weight="1"
+                    android:text="Your Course" />
+
+                <EditText
+                    android:id="@+id/editTextText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:ems="10"
+                    android:inputType="text"
+
+                    app:background="@null"
+                    android:paddingLeft="33dp"
+                    android:textColorHint="@color/grey_green"
+                    android:background="@drawable/bg_stroke_search_rectangle"
+                    android:backgroundTint="@color/grey_green"
+                    android:hint="What do you want to learn?" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:minHeight="660dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/bg_top_curve_white_rectangle">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/bg_transparentish_curved_rectangle"
+                    android:layout_margin="16dp"
+
+                    android:padding="3dp"
+                    android:orientation="horizontal"
+
+                    android:layout_height="43dp">
+
+                    <Button
+                        android:id="@+id/inprogress"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_green_blue_curve_rectangle"
+                        android:text="In Progress"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        app:backgroundTint="@null" />
+
+                    <Button
+                        android:id="@+id/completed"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="Completed"
+                        android:textColor="@color/black"
+                        android:textSize="11sp"
+                        app:backgroundTint="@null" />
+
+                    <Button
+                        android:id="@+id/downloads"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="Downloads"
+                        android:textColor="@color/black"
+                        android:textSize="11sp"
+                        app:backgroundTint="@null" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/f_fragment_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

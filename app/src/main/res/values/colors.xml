@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green_blue">#4F7F96</color>
+    <color name="green_blue_search">#507E96</color>
+    <color name="grey_green">#AFE8EEEF</color>
+    <color name="orangeish">#FF8250</color>
+<!--    <color name="white">#FFFFFFFF</color>-->
+<!--    <color name="white">#FFFFFFFF</color>-->
+    <color name="transparent">#00FFFFFF</color>
+        <color name="color_defaults">#FF6200EE</color>      <!-- Purple default -->
+        <color name="color_pressed">#FF3700B3</color>      <!-- Darker purple -->
+        <color name="color_focused">#FFBB86FC</color>      <!-- Light purple -->
+
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/home"
+    android:id="@+id/bottom_nav_graph">
+ <fragment android:id="@+id/home"
+     android:name="com.example.skillhub.Fragments_container.F_Home"
+     android:label="home"
+     />
+ <fragment android:id="@+id/course"
+     android:label="course"
+     android:name="com.example.skillhub.Fragments_container.F_YourCourse"/>
+ <fragment android:id="@+id/search"
+     android:label="search"
+     android:name="com.example.skillhub.Fragments_container.F_Search"/>
+ <fragment android:id="@+id/message"
+     android:label="message"
+     android:name="com.example.skillhub.Fragments_container.F_Notification"/>
+ <fragment android:id="@+id/profile"
+     android:label="profile"
+     android:name="com.example.skillhub.Fragments_container.F_Profile"/>
+
+</navigation>
