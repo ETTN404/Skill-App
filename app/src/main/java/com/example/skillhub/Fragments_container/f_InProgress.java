@@ -29,7 +29,7 @@ public class f_InProgress extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        adapterYourCourse=new Class_Adapter_Your_Course(getContext(),strings);
+        adapterYourCourse=new Class_Adapter_Your_Course(requireActivity(),strings);
         binding.listItem.setAdapter(adapterYourCourse);
         binding.listItem.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
