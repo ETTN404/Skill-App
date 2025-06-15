@@ -4,20 +4,20 @@
     app:startDestination="@id/home"
     android:id="@+id/bottom_nav_graph">
  <fragment android:id="@+id/home"
-     android:name="com.example.skillhub.Fragments_container.F_Home"
+     android:name="com.example.skillhub.View.Fragments_container.home_page.F_Home"
      android:label="home"
      />
  <fragment android:id="@+id/course"
      android:label="course"
-     android:name="com.example.skillhub.Fragments_container.F_YourCourse"/>
+     android:name="com.example.skillhub.View.Fragments_container.course_page.F_YourCourse"/>
  <fragment android:id="@+id/search"
      android:label="search"
-     android:name="com.example.skillhub.Fragments_container.F_Search"/>
+     android:name="com.example.skillhub.View.Fragments_container.search_page.F_Search"/>
  <fragment android:id="@+id/message"
      android:label="message"
-     android:name="com.example.skillhub.Fragments_container.F_Notification"/>
+     android:name="com.example.skillhub.View.Fragments_container.notification_page.F_Notification"/>
  <fragment android:id="@+id/profile"
      android:label="profile"
-     android:name="com.example.skillhub.Fragments_container.F_Profile"/>
+     android:name="com.example.skillhub.View.Fragments_container.Profile_page.F_Profile"/>
 
 </navigation>
